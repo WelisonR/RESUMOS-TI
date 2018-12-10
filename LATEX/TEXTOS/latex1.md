@@ -33,6 +33,7 @@
 É possível não enumerar a seção, subseção com `\subsection*{name}`.
 
 #### FORMATAÇÃO TEXTUAL
+*   Parágrafo: basta deixar uma linha branca entre os parágrafos.
 *   Margens:
     *   Pacote: `\usepackage[options]{geometry}`.
     *   Possibilidades de uso:
@@ -53,16 +54,6 @@
     *   Espaçamentos:
         *   Horizontal: `\hspace{2cm}`.
         *   Vertical: `\vspace{2cm}`.
-*   Parágrafo: basta deixar uma linha branca entre os parágrafos.
-*   Tamanhos de textos:
-    *   Pequeno: `{\tiny Texto pequeno.}`.
-    *   Normal: `Texto normal.`.
-    *   Grande: `{\huge Texto grande.}`.
-*   Tipos de textos:
-    *   Negrito: `\textbf{Texto em negrito.}`.
-	*   Itálico: `\textit{Texto em itálico.}`.
-	*   Underline: `\underline{Texto sublinhado.}`.
-	*   Mesclagem: `\underline{\textbf{Texto negrito e sublinhado.}}`.
 *   Quebras:
     *   Quebra de linha: `\newline`, `\\`.
     *   Quebra de página: `\newpage`.
@@ -73,3 +64,12 @@
     *   Esquerda: `\begin{flushleft} Conteúdo \end{flushleft}`.
     *   Direita: `\begin{flushright} Conteúdo \end{flushright}`.
     *   Centro: `\begin{center} Conteúdo \begin{center}`.
+*   Tamanhos de textos:
+    *   Pequeno: `{\tiny Texto pequeno.}`.
+    *   Normal: `Texto normal.`.
+    *   Grande: `{\huge Texto grande.}`.
+*   Tipos de textos:
+    *   Negrito: `\textbf{Texto em negrito.}`.
+	*   Itálico: `\textit{Texto em itálico.}`.
+	*   Underline: `\underline{Texto sublinhado.}`.
+	*   Mesclagem: `\underline{\textbf{Texto negrito e sublinhado.}}`.
