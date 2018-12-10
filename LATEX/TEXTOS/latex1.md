@@ -73,3 +73,30 @@
 	*   Itálico: `\textit{Texto em itálico.}`.
 	*   Underline: `\underline{Texto sublinhado.}`.
 	*   Mesclagem: `\underline{\textbf{Texto negrito e sublinhado.}}`.
+
+#### DEFINIÇÃO DE CORES
+*   Cores:
+    *   Packages:
+        *   `\usepackage{xcolor}`.
+        *   `\usepackage{afterpage}`.
+    *   Texto: `\textcolor{red}{Texto vermelho}`.
+    *   Fundo do texto: `\colorbox{gray}{Este fundo está cinza!}`.
+    *   Fundo da página: `\pagecolor{myColor}\afterpage{\nopagecolor}`.
+
+#### INSERÇÃO DE IMAGENS/FIGURAS
+*   Pacotes: `\usepackage{graphicx}`, `usepackage{float}` (força o posicionamento).
+*   Uso:
+```
+    \begin{figure}[H]
+    	\centering
+    	\includegraphics[width=0.7\linewidth]{default}
+    	\caption[Legenda Curta para referência]{Referência maior para falar vários blablabla.}
+    	\label{fig:fig1}
+    \end{figure}
+```
+*   Lista de figuras:
+```
+    \listoffigures
+    \newpage
+```
+*   Referência com labels: `\ref{labelname}`.
