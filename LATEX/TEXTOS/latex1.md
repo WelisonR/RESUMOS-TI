@@ -155,6 +155,34 @@ Lista de tabelas:
 ```
 *   Definição do Y (centralizado): `\newcolumntype{Y}{>{\centering\arraybackslash}X}`.
 
+#### MATEMÁTICA NO LATEX
+*   Pacote adicional: `\usepackage{amsmath}`.
+*   Tradução de comandos: `\renewcommand{\sin}{\mathrm{sen\hspace{0.5mm}}}`.
+*   Exemplo de uso do modo matemático:
+```
+    Equação do Segundo Grau: $ ax^2 + bx + c = 0 $. A solução é:
+
+	\begin{equation}
+		x = \frac{-b \pm \sqrt[2]{b^2 - 4ac}}{2a}
+	\end{equation}
+
+	\begin{equation*}
+		\begin{array}{cc}
+		x_1 = \dfrac{-b - \sqrt[2]{b^2 - 4ac}}{2a}, &
+		x_2 = \dfrac{-b + \sqrt[2]{b^2 - 4ac}}{2a}
+		\end{array}
+	\end{equation*}
+
+	\begin{equation}
+		A = \begin{bmatrix} % array, matrix, b/p/v/Vmatrix
+				1 & 0 & 0 \\
+				0 & 1 & 0 \\
+				0 & 0 & 1
+			\end{bmatrix}
+        \cdot \left(\dfrac{1}{2}\right)
+	\end{equation}
+```
+
 #### CAPA E SUMÁRIO
 *	Capa:
 	*	`\title{\textbf{\huge{Capa}}}`.
