@@ -9,6 +9,9 @@
         *   Tutorial: `https://tex.stackexchange.com/questions/87650/dictionary-for-texstudio-no-dictionary-available`.
     *   Habilitar linhas no editor: Options -> Config -> Show advanced Options -> Adv. Editor -> Show Line Number.
 
+#### DOCUMENTOS COM FORMATAÇÃO ABNT
+*	Site: `http://www.abntex.net.br/`.
+
 #### ESTRUTURA BÁSICA
 *   Definir a classe do documento: `\documentclass{class}`.
     *   Exemplos: book, letter, article, report.
