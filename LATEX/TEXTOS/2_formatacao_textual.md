@@ -48,3 +48,12 @@
     *   Texto: `\textcolor{red}{Texto vermelho}`.
     *   Fundo do texto: `\colorbox{gray}{Este fundo está cinza!}`.
     *   Fundo da página: `\pagecolor{myColor}\afterpage{\nopagecolor}`.
+
+#### DIVISÃO EM COLUNAS
+*	Documento em duas colunas: 
+	*	Global: `\documentclass[twocolumn]{doctype}`.
+	*	Local: `\twocolumn`.
+	*	Alterar espaçamento entre colunas: `\setlength{\columnsep}{10mm}`.
+	*	Separador: `\setlength{\columnseprule}{0.5mm}`.
+*	Pacote `\usepackage{multicol}`:
+    *  Separação em múltiplas colunas: `\begin{multicols}{nColumns} Conteúdo \end{multicols}`.
