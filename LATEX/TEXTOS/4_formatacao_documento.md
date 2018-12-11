@@ -1,3 +1,26 @@
+#### MÚLTIPLOS ARQUIVOS
+*   Salva-se os textos dos arquivos em vários `.tex`.
+*   Inclui no documento principal com `\input{nomeDoDocumento}`.
+
+#### NOTAS DE RODAPÉ
+*   Utiliza-se: `\footnote{Nota de rodapé}`.
+*   Recursos de rearranjo da ordem:
+    *   Pacote: `\usepackage[options]{footmisc}`.
+*   Utilizar numeração romana: `\renewcommand{\thefootnote}{\Roman{footnote}}`.
+*   Contagem por seção:
+```
+    \makeatletter
+    \@addtoreset{footnote}{section}
+    \makeatother
+```
+
+#### CITAÇÕES DIRETAS
+*   Utilizar \`\` no lugar de ". Porém, é mais recomendado usar o pacote `\usepackage{csencode}` com:
+    *   Sem indentação: `\enquote{Conteúdo}`.
+    *   Com indentação:
+        *   Citações curtas: `\begin{quote} Citação \end{quote}`.
+        *   Citações longas: `\begin{quotation} Citação \end{enquotation}`.
+
 #### CAPA E SUMÁRIO
 *	Capa:
 	*	`\title{\textbf{\huge{Capa}}}`.
