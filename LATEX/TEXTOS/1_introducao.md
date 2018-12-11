@@ -1,6 +1,13 @@
 #### INSTALAÇÃO
 *   TexLive: `sudo apt-get install texlive-full`;
 *   TexStudio: `sudo apt-get install texstudio`. (ou extensão no visual studio code)
+    *   TexStudio português: Options -> Config -> General -> Language -> "pt_BR".
+    *   Corretor ortográfico: 
+        *   Options -> Language Checking -> Spell Check -> "pt_BR".
+        *   "Spelling Dictionary Directories": `/usr/share/hunspell;[txs-settings-dir]/dictionaries/`.
+        *   _Download pt_BR_: `https://extensions.libreoffice.org/extensions/vero-verificador-ortografico-e-hifenizador-em-portugues-do-brasil/3.2`.
+        *   Tutorial: `https://tex.stackexchange.com/questions/87650/dictionary-for-texstudio-no-dictionary-available`.
+    *   Habilitar linhas no editor: Options -> Config -> Show advanced Options -> Adv. Editor -> Show Line Number.
 
 #### ESTRUTURA BÁSICA
 *   Definir a classe do documento: `\documentclass{class}`.
