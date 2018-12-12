@@ -1,0 +1,157 @@
+\documentclass[12pt]{exam} % possibilidade de uso do cancelspace
+\usepackage{libertine}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{multicol}
+\usepackage[brazil]{babel}
+\usepackage[shortlabels]{enumitem}
+\usepackage{csquotes}
+\usepackage{color}
+
+% ---
+% Informações que podem ser configuradas (MACROS)
+% ---
+\newcommand{\class}{Universidade de Brasilia, Faculdade do Gama} % Nome da disciplina
+\newcommand{\term}{2018.2}              % Perído Letivo
+\newcommand{\examnum}{Matemática Discreta 01}      % Número/Nome do exercício.
+\newcommand{\examdate}{12/12/2018}        % insere a data no documento
+\newcommand{\estudant}{Welison Lucas A. Regis}
+\newcommand{\register}{XX/XXXXXXX}
+% \newcommand{\timelimit}{}
+% ---
+
+
+
+\begin{document} % declaração de que o documento começa aqui.
+\pagestyle{plain}
+\thispagestyle{empty}
+% ... formatação do cabeçalho
+\noindent
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} l}
+\textbf{\class} & \textbf{Nome:} & \textit{\estudant}\\
+\textbf{\term} & \textbf{Matricula:} & \textit{\register}\\
+\textbf{\examnum} &&\\
+\textbf{\examdate} &&\\
+\end{tabular*}\\
+\rule[2ex]{\textwidth}{2pt}
+% ---
+
+\renewcommand{\solutiontitle}{\noindent\textbf{Solução: }\par\noindent}
+\SolutionEmphasis{\color{red}}
+
+
+% \printanswers
+% Inicio das questões. 
+\begin{questions}
+
+
+
+\question Raciocinando semânticamente, determine a validade ou invalidade nos casos a seguir.
+ 
+\begin{multicols}{2}
+  \begin{enumerate}[(a)]
+
+    \item 
+     $A \lor B, \neg A \vDash B$
+
+    \item
+     $A \leftrightarrow B, \neg A \vDash \neg B$
+
+    \item
+     $\neg \left( A\land B \right)\vDash \neg B\land \neg A$
+
+    \item
+     $A\rightarrow B\vDash A\lor B$
+
+    \item
+     $\neg A\rightarrow \neg B\vDash A\rightarrow B$
+
+    \item
+     $A, A\rightarrow B\vDash A\leftrightarrow B$
+
+    \item
+     $B\rightarrow \neg C\vDash \neg(B\land C)$
+
+    \item
+     $\neg(A\lor B), C\leftrightarrow A\vDash \neg C$
+
+  \end{enumerate}
+\end{multicols}
+
+\question Jogando-se dois dados, qual a probabilidade da soma ser 3?
+\newline
+% choices
+% oneparchoices
+\begin{oneparcheckboxes}
+    \choice 3/36
+    \CorrectChoice 2/36
+    \choice 1/36
+    \choice NDA
+\end{oneparcheckboxes}
+
+\question Descreva matemática as implicações lógicas Modus Ponens (MP) e Modus Tollens (MT).
+\fillwithdottedlines{2cm}
+%\fillwithlines{\stretch{1}}
+
+
+\question Três moedas são lançadas ao mesmo tempo. Qual é a probabilidade de as três moedas caírem com a mesma face para cima? \answerline[Short answer]
+\begin{solution}[2cm]
+    ...
+\end{solution}
+
+
+\question Determine abaixo todas as permutações possíveis da palavra \enquote{BOBS}.
+% \makeemptybox{1.5cm}
+
+\begin{solutionorbox}[1.5cm]
+    ...
+\end{solutionorbox}
+
+% solutionorlines
+% solutionordottedlines
+% solutionorgrid
+
+\question Sobre análise combinatória, responda:
+    \begin{parts}
+        \part O que é um evento certo?
+
+        \part
+        \begin{subparts}
+            \subpart O que é um espaço amostral? \answerline
+            \subpart O que é um espaço amostral equidistante? \answerline
+        \end{subparts}
+    \end{parts}
+
+\question \fillin[Probabilidade] é definido como a razão entre casos favoráveis e o espaço amostral. 
+
+\newcommand{\tf}[1][{}]{
+    \fillin[#1][0.25in]
+}
+\question Julge em verdadeiro ou falso:
+    \begin{parts}
+        \item \tf[T] A probabilidade de ocorrência de uma face qualquer de um dado não viciado é 1/6.
+        \item \tf[F] A probabilidade de cair 5 ou 6 em um dado não viciado é 2/36.
+    \end{parts}
+
+
+
+\end{questions}
+
+\vspace{1cm}
+\noindent \textbf{RESPOSTAS}
+
+Exemplo I.
+
+\bigskip
+
+a) $A \lor B, \neg A \vDash B$
+
+\begin{proof}
+Iremos demonstrar que o presente argumento é válido. Suponha, por absurdo, que o argumento é inválido. Assim, há uma valoração $v$, tal que:
+i. $v(A\lor B)=V$, 
+ii. $v(\neg A)=V$ e 
+iii. $v(B)=F$. Note que de i. e iii., pelo significado da ($\lor$), temos que iv. $v(A)=V$. De iv., pelo significado da ($\neg$), temos que v. $v(\neg A)=F$. Contudo, de ii. e v., obtemos uma contradição, visto que $v$ é função. Segue-se disso que não há valoração que torne as premissas verdadeiras e a conclusão falsa. Portanto, o argumento é válido.\\
+\end{proof}
+
+\end{document}

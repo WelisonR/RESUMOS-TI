@@ -15,7 +15,7 @@
 ```
 
 #### CITAÇÕES DIRETAS
-*   Utilizar \`\` no lugar de ". Porém, é mais recomendado usar o pacote `\usepackage{csencode}` com:
+*   Utilizar \`\` no lugar de ". Porém, é mais recomendado usar o pacote `\usepackage{csquotes}` com:
     *   Sem indentação: `\enquote{Conteúdo}`.
     *   Com indentação:
         *   Citações curtas: `\begin{quote} Citação \end{quote}`.
