@@ -8,6 +8,8 @@
 \usepackage[shortlabels]{enumitem}
 \usepackage{csquotes}
 \usepackage{color}
+% \usepackage{graphicx}
+% \usepackage{float}
 
 % ---
 % Informações que podem ser configuradas (MACROS)
@@ -18,12 +20,26 @@
 \newcommand{\examdate}{12/12/2018}        % insere a data no documento
 \newcommand{\estudant}{Welison Lucas A. Regis}
 \newcommand{\register}{XX/XXXXXXX}
+\newcommand{\tf}[1][{}]{                  % Para questões de verdadeiro ou falso
+    \fillin[#1][0.25in]
+}
+
 % \newcommand{\timelimit}{}
 % ---
 
+\renewcommand{\solutiontitle}{\noindent\textbf{Solução: }\par\noindent}
+\SolutionEmphasis{\color{red}}
 
+% \setlength{\textfloatsep}{0.0cm} % Remove o espaço entre a imagem do topo e o texto
 
 \begin{document} % declaração de que o documento começa aqui.
+
+% \begin{figure}
+%     \centering
+%     \includegraphics[width=1.0\linewidth, height=1.0cm]{images/as_comp_PB.jpg}
+%     \label{unb:unb_logo}
+% \end{figure}
+
 \pagestyle{plain}
 \thispagestyle{empty}
 % ... formatação do cabeçalho
@@ -37,8 +53,11 @@
 \rule[2ex]{\textwidth}{2pt}
 % ---
 
-\renewcommand{\solutiontitle}{\noindent\textbf{Solução: }\par\noindent}
-\SolutionEmphasis{\color{red}}
+
+% \centerline{\textbf{\huge{Análise Combinatória}}}
+\begin{center}
+    \textbf{\huge{Análise Combinatória}}
+\end{center}
 
 
 % \printanswers
@@ -125,9 +144,6 @@
 
 \question \fillin[Probabilidade] é definido como a razão entre casos favoráveis e o espaço amostral. 
 
-\newcommand{\tf}[1][{}]{
-    \fillin[#1][0.25in]
-}
 \question Julge em verdadeiro ou falso:
     \begin{parts}
         \item \tf[T] A probabilidade de ocorrência de uma face qualquer de um dado não viciado é 1/6.
