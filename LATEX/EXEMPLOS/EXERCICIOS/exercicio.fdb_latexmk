@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1544644762 "/home/almeida/Documentos/RESUMOS-TI/LATEX/EXEMPLOS/EXERCICIOS/exercicio.tex" "exercicio.pdf" "exercicio" 1544644762
+["pdflatex"] 1544659156 "/home/almeida/Documentos/RESUMOS-TI/LATEX/EXEMPLOS/EXERCICIOS/exercicio.tex" "exercicio.pdf" "exercicio" 1544659156
   "/etc/texmf/web2c/texmf.cnf" 1544383429 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/almeida/Documentos/RESUMOS-TI/LATEX/EXEMPLOS/EXERCICIOS/exercicio.tex" 1544644762 4336 0cc28d4e9c1e8bb51e16581d22e0b7fd ""
+  "/home/almeida/Documentos/RESUMOS-TI/LATEX/EXEMPLOS/EXERCICIOS/exercicio.tex" 1544659155 4811 c7029b77936aa3c52e255b19fb934f6e ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_c7kyj5.enc" 1354061736 2960 1186daedd110e2cd2514b25ddc70746e ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_lu7m2n.enc" 1354061736 2988 47fc38f815d6dd9a7be7c8f2e46aaa0c ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_xogrpz.enc" 1354061736 2975 166ca468960488405f244ded43d2ea85 ""
@@ -95,9 +95,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1544383449 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1544383486 3856033 3174e4281babb22551748ae191bb15d8 ""
-  "exercicio.aux" 1544644762 1996 14429505baa4606c82fbd223891d8ee9 ""
-  "exercicio.tex" 1544644762 4336 0cc28d4e9c1e8bb51e16581d22e0b7fd ""
+  "exercicio.aux" 1544659156 1996 cabe7a6489f7946ecee7f4eafef6a370 ""
+  "exercicio.tex" 1544659155 4811 c7029b77936aa3c52e255b19fb934f6e ""
   (generated)
   "exercicio.log"
-  "exercicio.pdf"
   "exercicio.aux"
+  "exercicio.pdf"
