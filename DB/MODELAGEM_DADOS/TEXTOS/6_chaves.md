@@ -16,6 +16,7 @@
     *   Exemplo: ID (contagem).
     *   Não possui significado para o usuário, geralmente fica escondida nas aplicações.
     *   Geralmente substitui as chaves primárias compostas.
+
 ## CHAVE NÃO-ÚNICA
 *   **Chave Estrangeira**
     *   **"Ponteiros lógicos"**.
