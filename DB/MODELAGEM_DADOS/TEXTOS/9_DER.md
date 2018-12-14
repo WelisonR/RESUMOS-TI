@@ -17,6 +17,6 @@ Representação do diagrama Crow's foot:
 
 ![Crow's foot](https://snag.gy/ucwtn2.jpg)
 
-Exemplo de diagrama Crow's foot, com ressalvas dos tipos de campos:
+Exemplo de diagrama Crow's foot, com ressalvas dos tipos de campos (faltantes, tipos incorretos):
 
 ![Crow's foot](https://snag.gy/DRzaUH.jpg)
