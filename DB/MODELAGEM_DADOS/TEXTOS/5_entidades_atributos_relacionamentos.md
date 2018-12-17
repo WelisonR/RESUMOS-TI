@@ -41,6 +41,12 @@
         *   **Chaves não únicas**: usadas para agrupar instâncias.
         *   **Chaves compostas**: dois ou mais atributos combinados.
 
+# ENTIDADE ASSOCIATIVA
+*   A entidade associativa é utilizada para **solucionar relações muitos-para-muitos** (N:M).
+	*	Transforma a relação em 1:N e gera-se uma tabela associativa.
+	*	Exemplo: relação curso e disciplina (N:M).
+		*	Vide anexo.	
+
 # ENTIDADE x RELAÇÃO
 *   **Definição de relação**: é um conjunto de registros (tuplas) representando um modelo de entidade. O conjunto das **instâncias**, com seus atributos, é denominada relação.
 *   **Tabela bidimencional**.
@@ -60,3 +66,8 @@
     *   **Ternário.**
         *   Exemplo: **entidades - Médico, Paciente e Medicamento. Relacionamento: prescreve**.
 *   **Relacionamento entre múltiplas tabelas: utilização das chaves primárias e estrangeiras.**
+
+# ANEXOS
+Entidade associativa:
+
+![Entidade Associativa](https://snag.gy/oYsOM8.jpg)
