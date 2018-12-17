@@ -43,7 +43,7 @@
 
 # ENTIDADE ASSOCIATIVA
 *   A entidade associativa é utilizada para **solucionar relações muitos-para-muitos** (N:M).
-	*	Transforma a relação em 1:N e gera-se uma tabela associativa.
+	*	Transforma a relação em 1:N ou 0:N ou 1:1 e gera-se uma tabela associativa.
 	*	Exemplo: relação curso e disciplina (N:M).
 		*	Vide anexo.	
 
