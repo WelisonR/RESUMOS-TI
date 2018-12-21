@@ -1,6 +1,6 @@
 SELECT
     Regiao AS 'Região',
-    SUM(Populacao) as Total
+    SUM(Populacao) AS Total
 FROM Estado
 GROUP BY Regiao
 ORDER BY Total DESC;
