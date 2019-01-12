@@ -19,8 +19,10 @@
 # Anexos
 
 Mapeamento:
+
 ![Mapeamento](https://snag.gy/MPItOg.jpg)
 
 
 Modelo relacional completo:
+
 ![Chave estrangeira](https://snag.gy/wpR63l.jpg)

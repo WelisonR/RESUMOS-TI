@@ -10,7 +10,9 @@
 # Anexos
 
 Restrição de sobreposição (pode assumir ambas):
+
 ![Especialização e restrição de sobreposição](https://snag.gy/pUJbme.jpg)
 
 Especialização e disjunção exclusiva:
+
 ![Especialização e disjunção exclusiva](https://snag.gy/KJdHaY.jpg)

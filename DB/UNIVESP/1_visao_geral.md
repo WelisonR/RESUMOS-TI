@@ -40,7 +40,9 @@
 # Anexos
 
 Modelagem de banco de dados:
+
 ![Modelagem de banco de dados](https://snag.gy/H4TE7O.jpg)
 
 Estruturação de banco de dados:
+
 ![Estruturação de banco de dados](https://snag.gy/KY5RpG.jpg)

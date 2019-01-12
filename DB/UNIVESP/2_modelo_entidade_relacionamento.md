@@ -38,4 +38,5 @@
 # Anexos
 
 Relacionamento ternário:
+
 ![Relacionamento ternário](https://snag.gy/P0gMIG.jpg)
