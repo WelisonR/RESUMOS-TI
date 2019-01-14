@@ -47,3 +47,5 @@
         *   FD &larr; FN X DEPENDENTE
         *   DEFATO_DEP &larr; $σ_{ident = fident}$ (FD)
         *   RESULTADO &larr; $π_{FN.nome, FN.sobrenome, DEPENDENTE.nome}$ (DEFATO_DEP)
+*   O operador `JOIN`: une tuplas de duas relações R e S que possuem uma relação.
+    *   R $⋈_{condição ~ de ~ junção}$ S.
